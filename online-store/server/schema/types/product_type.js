@@ -6,7 +6,7 @@ const {
   GraphQLID, 
   GraphQLInt } = graphql;
 const CategoryType = require("./category_type");
-const Category = mongoose.model('categories');
+const Category = mongoose.model("categories");
 
 const ProductType = new GraphQLObjectType({
   name: "ProductType",

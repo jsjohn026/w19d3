@@ -36,7 +36,7 @@ const RootQuery = new GraphQLObjectType({
         return Post.findById(args.id);
       }
     }
-  },
+  }
 });
 
 module.exports = RootQuery;
